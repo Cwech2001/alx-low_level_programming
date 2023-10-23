@@ -6,6 +6,13 @@
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	int l = 122;
+
+	while (l >= 97)
+	{
+		putchar(l);
+		l--;
+	}
+	putchar ('\n');
 	return (0);
 }
